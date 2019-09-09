@@ -1,6 +1,6 @@
 {
-  "name": "tetrisjs",
-  "version": "0.0.1-alpha",
+  "name": "@jsgames/tetris",
+  "version": "0.1.0",
   "description": "A tetris engine written in typescript",
   "main": "dist/index.js",
   "scripts": {
@@ -10,9 +10,17 @@
   "author": "Fernando Cornejo",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
     "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.4",
+    "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
     "ts-jest": "^24.0.2",
+    "tslint": "^5.19.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.2"
   }
 }
